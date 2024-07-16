@@ -6,7 +6,7 @@ This repository provides a python wrapper to utilize the parametrized QNM framew
 
 #### Schwarzschild black holes
 
-The framework describes linear and quadratic QNM shifts due to modifications of the Regge-Wheeler, Zerilli and scalar perturbations around Schwarzschild black holes beyond general relativity. Currently including real or complex valued coefficients for $\alpha_k$ with $k \in [0,\dots, 10]$. 
+The framework describes linear and quadratic QNM shifts due to modifications of the Regge-Wheeler, Zerilli and scalar perturbations around Schwarzschild black holes beyond general relativity. Currently including complex coefficients for $\alpha_k$ with $k \in [0,\dots, 10]$. 
 The following QNMs can be computed:
 
  - $\ell \in [0,1,2,3,4]$ for scalar and $\ell \in [2,3,4]$ for tensor
@@ -16,7 +16,7 @@ The following QNMs can be computed:
 
 #### Kerr black holes
 
-The framework describes linear QNM shifts and shifts in the separation constant due to modifications of the Teukolsky perturbation equation around Kerr black holes beyond general relativity. Currently including real or complex valued coefficients for $\alpha_k$ with $k \in [-6,\dots, 4]$. Note the index shift when specifying the parameter injection that always starts with the zero entry of an array. The following QNMs can be computed:
+The framework describes linear QNM shifts and shifts in the separation constant due to modifications of the Teukolsky perturbation equation around Kerr black holes beyond general relativity. Currently including complex coefficients for $\alpha_k$ with $k \in [-6,\dots, 4]$. Note the index shift when specifying the parameter injection that always starts with the zero entry of an array. The following QNMs can be computed:
 
  - $\ell \in [2,3,4]$
  - $m \in [-\ell, \dots, \ell]$
