@@ -23,7 +23,7 @@ The framework describes linear QNM shifts and shifts in the separation constant 
  - $n \in [0,1,2]$
 
 
-#### The repository is structured as follows:
+#### The repository is structured as follows
 
   - QNM_GR (containts the general relativity values for QNMs)
   - QNM_coefficients (containts the linear/quadratic coefficients)
@@ -40,4 +40,4 @@ The parametrized QNM framework for Schwarzschild has been introduced and extende
   - Völkel et al., Phys.Rev.D 105 (2022) 8, 084046, [arXiv:2202.08655](https://arxiv.org/abs/2202.08655)
 
 The parametrized QNM framework for Kerr has been introduced in:
-  - Cano et a., in preparation (2024)
+  - Cano et al., in preparation (2024)
