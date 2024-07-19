@@ -81,6 +81,7 @@ def load_diag_coefficient_file(what_l, what_m, what_n, what_k):
     prints an error message if file cannot be found.
     """
     try:
+    #if what_l == 2 and what_n == 0:
         if what_k < 0 and what_m < 0:
             filename = "./QNM_coefficients/beyond_Teukolsky/l" + str(what_l) + "/n" + str(what_n) + "l" + str(what_l) + "mm" + str(-what_m) + "km" + str(-what_k) + "_quadratic.txt"
         if what_k < 0 and what_m >= 0:
@@ -93,7 +94,10 @@ def load_diag_coefficient_file(what_l, what_m, what_n, what_k):
         T_tmp     = np.genfromtxt(filename)
         return T_tmp
     except:
-    	print("Coefficient file(s) not found, check if l=" + str(what_l) + ", m=" + str(what_m) + ", n=" + str(what_n) + " is valid." + "\n" + filename)
-    	filename = "./QNM_coefficients/beyond_Teukolsky/l2/n0l2m2k0_quadratic.txt"
-    	T_tmp    = np.genfromtxt(filename)
-    	return (1e-15)*T_tmp
+    #	print("Coefficient file(s) not found, check if l=" + str(what_l) + ", m=" + str(what_m) + ", n=" + str(what_n) + " is valid." + "\n" + filename)
+    #	filename = "./QNM_coefficients/beyond_Teukolsky/l2/n0l2m2k0_quadratic.txt"
+    #	T_tmp    = np.genfromtxt(filename)
+    	#placeholder until all quadratic coefficients have been computed
+        filename = "./QNM_coefficients/beyond_Teukolsky/l" + str(2) + "/n0l2m0k0_quadratic.txt"
+        T_tmp     = np.genfromtxt(filename)
+        return 1e-15*T_tmp
