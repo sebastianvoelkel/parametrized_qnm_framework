@@ -63,8 +63,8 @@ class QNM_class:
                     T_tmp = np.loadtxt(filename, skiprows=0)
                     omega_GR_spline_dict[l, m, n, 0] = CubicSpline(T_tmp[:,0]/2., 2.*T_tmp[:,1])
                     omega_GR_spline_dict[l, m, n, 1] = CubicSpline(T_tmp[:,0]/2., 2.*T_tmp[:,2])
-                    B_GR_spline_dict[l, m, n, 0]     = CubicSpline(T_tmp[:,0]/2., 2.*T_tmp[:,3])
-                    B_GR_spline_dict[l, m, n, 1]     = CubicSpline(T_tmp[:,0]/2., 2.*T_tmp[:,4])
+                    B_GR_spline_dict[l, m, n, 0]     = CubicSpline(T_tmp[:,0]/2., T_tmp[:,3])
+                    B_GR_spline_dict[l, m, n, 1]     = CubicSpline(T_tmp[:,0]/2., T_tmp[:,4])
         self.omega_GR = omega_GR_spline_dict
         self.B_GR     = B_GR_spline_dict
 
