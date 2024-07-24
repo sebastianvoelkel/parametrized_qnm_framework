@@ -40,7 +40,7 @@ The parametrized QNM framework for Schwarzschild has been introduced and extende
   - Völkel et al., Phys.Rev.D 105 (2022) 8, 084046, [arXiv:2202.08655](https://arxiv.org/abs/2202.08655)
 
 The parametrized QNM framework for Kerr has been introduced in:
-  - Cano et al., in preparation (2024)
+  - Cano et al., [arXiv:2407.15947](https://arxiv.org/abs/2407.15947)
 
 The GR values have been taken from the [ringdown website](https://pages.jh.edu/eberti2/ringdown/):
   - Berti et al., Phys.Rev.D 73 (2006) 064030, [arXiv:gr-qc/0512160](https://arxiv.org/abs/gr-qc/0512160)
